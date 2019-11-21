@@ -38,7 +38,7 @@ class ItemCarousel extends Component {
                 className="ItemCarousel"
               >
                 <h2 onClick={() => this.props.toggleCarousel('prev')}>HOLA</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus at felis quis aliquet. Donec at ullamcorper ipsum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             )}
           </ItemsCarousel>

@@ -8,6 +8,7 @@ body {
   background: radial-gradient(circle, rgba(255,255,255,1) 45%, rgba(177,177,177,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b1b1b1",GradientType=1);
   font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
 }
 
 code {
