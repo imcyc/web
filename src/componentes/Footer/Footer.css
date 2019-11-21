@@ -1,0 +1,10 @@
+.Footer {
+  width: 100%;
+  text-align: center;
+}
+
+.Footer h2 {
+  font-weight: 100;
+  font-size: 0.7em;
+  padding: 10px;
+}

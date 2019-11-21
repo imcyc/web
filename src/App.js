@@ -1,15 +1,22 @@
 import React from 'react';
-import { ReactComponent as Logo } from './images/logo.svg';
+import { HashRouter, Route, Link } from "react-router-dom";
+import Header from './componentes/Header/Header';
+import Footer from './componentes/Footer/Footer';
+import Home from './componentes/Home/Home';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Logo style={{width: '10em'}} />
-        <p>Instituto Mexicano del Cemento y del Concreto A.C.</p>
-      </header>
-    </div>
+    <HashRouter basename="/">
+      <div class="Site">
+        <Header />
+        <main class="Site-content">
+          <Route exact path="/" component={Home} />
+        </main>
+        <Footer />
+      </div>
+    </HashRouter>
   );
 }
 
