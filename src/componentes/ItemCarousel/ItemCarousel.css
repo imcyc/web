@@ -11,4 +11,12 @@ i {
 
 .ItemCarousel h2 {
   font-size: 1.3em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ItemCarousel p {
+  font-size: 0.7em;
+  color: #ffffff;
+  text-align: center;
 }

@@ -14,7 +14,7 @@ class Home extends Component {
           <h2 onClick={() => this.props.toggleCarousel('prev')}>Instituto Mexicano del Cemento y del Concreto A.C.</h2>
           <h3>COMPARTIR EL CONOCIMIENTO EN CONCRETO</h3>
         </div>
-        <ItemCarousel />
+        <ItemCarousel toggleCarousel={this.props.toggleCarousel} />
       </div>
     );
   }

@@ -3,10 +3,14 @@ import ItemsCarousel from 'react-items-carousel';
 import './ItemCarousel.css';
 
 class ItemCarousel extends Component {
-  state = {
-    activoItemIndex: 0,
-    setActiveItemIndex: 0
+  constructor(props) {
+    super(props);
+    this.state = {
+      activoItemIndex: 0,
+      setActiveItemIndex: 0
+    }
   }
+  
   render() {
     const flecha = '>';
     return (
@@ -33,7 +37,8 @@ class ItemCarousel extends Component {
                 key={i}
                 className="ItemCarousel"
               >
-                <h2>HOLA</h2>
+                <h2 onClick={() => this.props.toggleCarousel('prev')}>HOLA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus at felis quis aliquet. Donec at ullamcorper ipsum.</p>
               </div>
             )}
           </ItemsCarousel>
