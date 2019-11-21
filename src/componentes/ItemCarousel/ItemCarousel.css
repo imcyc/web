@@ -1,5 +1,14 @@
 .ItemCarousel {
-  height: 150;
-  background: rgba(0,0,0,0.7);
+  height: 170;
+  background: rgba(0,0,0,0.3);
   padding: 10px;
+}
+
+i {
+  color: #ffffff;
+  font-size: 1.3em;
+}
+
+.ItemCarousel h2 {
+  font-size: 1.3em;
 }
