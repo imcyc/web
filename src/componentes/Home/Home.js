@@ -8,7 +8,11 @@ class Home extends Component {
   render() { 
     return ( 
       <div className="Home">
-        Home
+        <h2 
+          style={{position: 'fixed',top: '50%',zIndex: '1000000',background:'#333'}} 
+          onClick={() => this.props.toggleCarousel('prev')}>
+            MOVER
+        </h2>
       </div>
     );
   }
