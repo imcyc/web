@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Home.css';
 
 class Home extends Component {
   constructor(props) {
@@ -8,11 +9,8 @@ class Home extends Component {
   render() { 
     return ( 
       <div className="Home">
-        <h2 
-          style={{position: 'fixed',top: '50%',zIndex: '1000000',background:'#333'}} 
-          onClick={() => this.props.toggleCarousel('prev')}>
-            MOVER
-        </h2>
+        <h2 onClick={() => this.props.toggleCarousel('prev')}>Instituto Mexicano del Cemento y del Concreto A.C.</h2>
+        <h3>COMPARTIR EL CONOCIMIENTO</h3>
       </div>
     );
   }

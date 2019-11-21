@@ -49,7 +49,6 @@ class App extends Component {
         <div className="Site">
           <Header />
           <main className="Site-content">
-            <Route exact path="/" component={Home} />
             <Route 
               exact 
               path="/" 

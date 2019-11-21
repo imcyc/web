@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css';
+import bkg from '../../images/bkg.jpg';
+import bkg1 from '../../images/bkg1.jpg';
+import bkg2 from '../../images/bkg2.jpg';
 
 class ControlledCarousel extends Component {
   constructor(props){
@@ -19,35 +22,23 @@ class ControlledCarousel extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100 min-vh-100"
-            src="https://imcyc.github.io/autoconstruccion/images/bkg.jpg"
-            alt="First slide"
+            src={bkg}
+            alt="Third slide"
           />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 min-vh-100"
-            src="https://imcyc.github.io/autoconstruccion/images/bkg1.jpg"
+            src={bkg1}
             alt="Third slide"
           />
-          <Carousel.Caption>
-            <h3>wefwefwe slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100 min-vh-100"
-            src="https://imcyc.github.io/autoconstruccion/images/bkg2.jpg"
+            src={bkg2}
             alt="Third slide"
           />
-          <Carousel.Caption>
-            <h3>ergergirst slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     );

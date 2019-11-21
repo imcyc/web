@@ -1,11 +1,14 @@
+.navbar {
+  width: 100%;
+}
+
 .bg-dark {
   background-color: transparent !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0,0,0,.5);
+  color: #ffffff !important;
   font-size: 0.6em;
-  border-right: 1px solid #ccc;
   transition: all 1s;
   text-transform: uppercase;
 }
