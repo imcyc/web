@@ -14,7 +14,7 @@ class App extends Component {
     this.state = {
       index: 0,
       direction: null,
-      carouselItemCount: 3
+      carouselItemCount: 4
     }
     this.toggleCarousel = this.toggleCarousel.bind(this);
   }
