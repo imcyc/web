@@ -4,11 +4,10 @@ nav.navegador {
 
 nav.navegador i {
   font-size: 1.5em;
-  padding-right: 10px;
 }
 
 nav.navegador button {
-  width: 50px;;
+  width: 65px;;
 }
 
 nav.navegador button, nav.navegador .sidenav {
