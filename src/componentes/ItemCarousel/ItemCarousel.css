@@ -1,7 +1,16 @@
 .ItemCarousel {
-  height: 170;
   background: rgba(0,0,0,0.3);
   padding: 10px;
+  display: flex;
+  flex-direction: row;
+  transition: all 1s;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.ItemCarousel:hover {
+  background: rgba(0,0,0,0.8);
 }
 
 i {
@@ -11,12 +20,18 @@ i {
 
 .ItemCarousel h2 {
   font-size: 1.3em;
-  text-align: center;
+  text-align: left;
+  padding-left: 10px;
   cursor: pointer;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .ItemCarousel p {
   font-size: 0.7em;
   color: #ffffff;
-  text-align: center;
+  text-align:left;
+  padding-left: 10px;
 }

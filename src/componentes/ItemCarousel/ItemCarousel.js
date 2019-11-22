@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ItemsCarousel from 'react-items-carousel';
 import './ItemCarousel.css';
+import logo from '../../images/bkg.jpg';
 
 class ItemCarousel extends Component {
   constructor(props) {
@@ -36,9 +37,15 @@ class ItemCarousel extends Component {
               <div
                 key={i}
                 className="ItemCarousel"
+                onClick={() => this.props.toggleCarousel('prev')}
               >
-                <h2 onClick={() => this.props.toggleCarousel('prev')}>HOLA</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div>
+                  <img src={logo} alt="Logo" style={{width: '100px'}} />
+                </div>
+                <div>
+                  <h2>HOLA</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                </div>
               </div>
             )}
           </ItemsCarousel>
