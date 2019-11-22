@@ -13,7 +13,6 @@ class ItemCarousel extends Component {
   }
   
   render() {
-    const flecha = '>';
     return (
       <div style={{"padding":"0 0 15px 15px","maxWidth":"100%","margin":"0"}}>
           <ItemsCarousel
@@ -30,21 +29,23 @@ class ItemCarousel extends Component {
             firstAndLastGutter={true}
             activeItemIndex={this.state.activoItemIndex}
             requestToChangeActive={value => this.setState({ activoItemIndex: value })}
-            rightChevron={<i class="lni-angle-double-right"></i>}
-            leftChevron={<i class="lni-angle-double-left"></i>}
+            rightChevron={<i className="lni-angle-double-right"></i>}
+            leftChevron={<i className="lni-angle-double-left"></i>}
           >
             {Array.from(new Array(10)).map((_, i) =>
               <div
                 key={i}
                 className="ItemCarousel"
-                onClick={() => this.props.toggleCarousel('prev')}
               >
                 <div>
                   <img src={logo} alt="Logo" style={{width: '100px'}} />
                 </div>
                 <div>
-                  <h2>HOLA</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                  <h2 onClick={() => this.props.toggleCarousel('prev')}>HOLA</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div>
+                  <i className="lni-plus" onClick={() => this.props.toggleCarousel('prev')}></i>
                 </div>
               </div>
             )}

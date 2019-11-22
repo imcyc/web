@@ -27,7 +27,7 @@ class Header extends Component {
                 <Nav.Link href="#pricing">Gerencia Técnica</Nav.Link>
                 <Nav.Link href="#pricing">Historia</Nav.Link>
                 <Nav.Link href="#pricing">Membresías</Nav.Link>
-                <Nav.Link href="#pricing">Aplicaciones</Nav.Link>
+                <Nav.Link href="#pricing">APPS</Nav.Link>
                 <Nav.Link href="#pricing">Directorio</Nav.Link>
                 <Nav.Link href="#pricing">Tienda</Nav.Link>
                 <Nav.Link href="#pricing">Ubicación</Nav.Link>

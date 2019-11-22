@@ -1,0 +1,26 @@
+nav.navegador {
+  position: relative;
+}
+
+nav.navegador i {
+  font-size: 1.5em;
+  padding-right: 10px;
+}
+
+nav.navegador button {
+  width: 50px;;
+}
+
+nav.navegador button, nav.navegador .sidenav {
+  background: rgba(0,0,0,0.5);
+}
+
+nav.navegador .sidenav {
+  width: 100%;
+  text-align: left;
+}
+
+nav.navegador .sidenav.selected {
+  background: rgba(0,0,0,0.9);
+  font-weight: bold;
+}

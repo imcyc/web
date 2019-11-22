@@ -7,10 +7,7 @@ import bkg2 from '../../images/bkg2.jpg';
 import bkg3 from '../../images/bkg3.jpg';
 
 class ControlledCarousel extends Component {
-  constructor(props){
-    super(props);
-  }
-  render(){
+  render(props){
     const { index, direction } = this.props;
     return (
       <Carousel 

@@ -4,9 +4,10 @@
   "private": true,
   "homepage": "https://imcyc.github.io/web",
   "dependencies": {
+    "@trendmicro/react-sidenav": "^0.4.5",
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
-    "react": "^16.11.0",
+    "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.11.0",
     "react-items-carousel": "^2.8.0",

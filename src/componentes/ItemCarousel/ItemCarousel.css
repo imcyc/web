@@ -35,3 +35,13 @@ i {
   text-align:left;
   padding-left: 10px;
 }
+
+.ItemCarousel i.lni-plus {
+  cursor: pointer;
+  font-size:1.5em;
+  transition: all 1s;
+}
+
+.ItemCarousel i.lni-plus:hover {
+  background: #ff0000;
+}
